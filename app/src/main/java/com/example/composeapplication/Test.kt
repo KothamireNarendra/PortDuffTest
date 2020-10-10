@@ -21,12 +21,12 @@ fun Test(modifier: Modifier = Modifier) {
                 color = Color.White,
                 radius = 200f,
                 center = Offset((size.width / 4), size.width / 2),
-                blendMode = BlendMode.Xor) // Don't know what to put here so that Magenta color of above rect will be visible
+                blendMode = BlendMode.Xor) // Don't know what to put here so that Magenta color of above rect will be visible where circles overlap
 
         drawCircle(color = Color.White,
                 radius = 200f,
                 center = Offset((size.width / 4) + size.width / 4f, size.width / 2),
-                blendMode = BlendMode.Xor) // Don't know what to put here so that Magenta color of above rect will be visible
+                blendMode = BlendMode.Xor) // Don't know what to put here so that Magenta color of above rect will be visible where circles overlap
     }
 
 }
